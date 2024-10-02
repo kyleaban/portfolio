@@ -66,9 +66,9 @@ export const DATA = {
       title: "Application Developer",
       logoUrl: "/adp_logo.jpg",
       start: "August 2021",
-      end: "Juy 2024",
+      end: "July 2024",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "",
     },
     {
       company: "Automatic Data Processing",
@@ -92,7 +92,7 @@ export const DATA = {
       start: "June 2017",
       end: "August 2017",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Led the development of internal tools for automating network firewall management. Implemented new features to aid network engineers in their daily tasks, and coordinated automation initiatives to decrease the time spent on repetitive manual tasks and decrease the potential for user errors.Collaborated with other developers to monitor and document project progress during each sprint. Communicated with stakeholders to convey project needs and roadblocks and suggested solutions for resource allocation. Developed and spearheaded efforts related to UI/UX for frontend applications from inception to completion.",
     },
   ],
   education: [
