@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { StaticImageData } from 'next/image';
 
 interface Props {
   title: string;
@@ -18,7 +19,7 @@ interface Props {
   dates: string;
   tags: readonly string[];
   link?: string;
-  image?: string;
+  image?: string | StaticImageData;
   video?: string;
   links?: readonly {
     icon: React.ReactNode;
