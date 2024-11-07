@@ -14,17 +14,18 @@ export const DATA = {
     "Currently exploring new opportunities while building and scaling my own SaaS apps on the weekends. In the past, I pursued a degree in computer science and business, interned at big tech companies in Atlanta, and helped organize UGA's only ever virtual hackathon. While Im not dissecting the newest trends in tech, you'll often find me at your local tennis court!",
   avatarUrl: "/me.jpeg",
   skills: [
-    "React",
+    "React 18+",
     "Next.js",
     "Typescript",
     "Node.js",
     "Python",
-    "Angular",
+    "Angular 16+",
     "Postgres",
     "Docker",
     "Kubernetes",
     "Java",
     "Flask",
+    "LLMs"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -108,19 +109,24 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Under Construction!",
+      title: "Corey",
       href: "",
       dates: "Present",
       active: true,
       description:
-        "Currently working on my first Gen AI Chatbot!",
+        "Take a look at a AI powered fashionbot Im currently building!",
       technologies: [
         "Next.js",
+        "React",
+        "Typescript",
+        "Vercel",
+        "OpenAI",
+        "Llama 3.1"
       ],
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://github.com/kyleaban/fashion-bot",
           icon: <Icons.globe className="size-3" />,
         },
       ],
